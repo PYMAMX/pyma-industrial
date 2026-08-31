@@ -393,6 +393,25 @@
                         </div>
 
                     </div>
+
+                    <div style="margin-top: 28px;">
+                        <p class="section-label" style="margin-bottom: 10px;">
+                            COTIZAR POR WHATSAPP
+                        </p>
+
+                        <p style="color: #9aa1aa; margin-bottom: 16px;">
+                            Si prefieres una atención más rápida, escríbenos directamente por WhatsApp.
+                        </p>
+
+                        <a
+                            href="https://wa.me/528444978828?text=Hola%20PYMA%2C%20me%20gustar%C3%ADa%20solicitar%20una%20cotizaci%C3%B3n."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="button button-primary"
+                        >
+                            Cotizar por WhatsApp · 844 497 8828
+                        </a>
+                    </div>
                 </div>
 
                 <div class="form-container">
@@ -402,7 +421,29 @@
                         <h3>Información del proyecto</h3>
                     </div>
 
-                    <form id="quoteForm">
+                    <form
+                        id="quoteForm"
+                        action="https://formsubmit.co/Cmorales@pyma.mx"
+                        method="POST"
+                    >
+
+                        <input
+                            type="hidden"
+                            name="_cc"
+                            value="Jguzman@pyma.mx"
+                        >
+
+                        <input
+                            type="hidden"
+                            name="_subject"
+                            value="Nueva solicitud de cotización - PYMA"
+                        >
+
+                        <input
+                            type="hidden"
+                            name="_template"
+                            value="table"
+                        >
 
                         <div class="form-row">
 
@@ -411,6 +452,7 @@
                                 <input
                                     type="text"
                                     id="nombre"
+                                    name="Nombre"
                                     placeholder="Nombre completo"
                                     required
                                 >
@@ -421,6 +463,7 @@
                                 <input
                                     type="text"
                                     id="empresa"
+                                    name="Empresa"
                                     placeholder="Nombre de empresa"
                                 >
                             </div>
@@ -434,6 +477,7 @@
                                 <input
                                     type="tel"
                                     id="telefono"
+                                    name="Telefono"
                                     placeholder="844 000 0000"
                                     required
                                 >
@@ -444,6 +488,7 @@
                                 <input
                                     type="email"
                                     id="correo"
+                                    name="email"
                                     placeholder="correo@empresa.com"
                                 >
                             </div>
@@ -455,6 +500,7 @@
 
                             <textarea
                                 id="mensaje"
+                                name="Descripcion_del_proyecto"
                                 rows="7"
                                 placeholder="Describe el trabajo requerido, cantidades, medidas, materiales y cualquier otra información importante."
                                 required
@@ -465,13 +511,12 @@
                             class="button button-primary submit-button"
                             type="submit"
                         >
-                            Preparar solicitud
+                            Enviar solicitud de cotización
                         </button>
 
                         <p class="form-note">
-                            Esta versión prepara la información del formulario.
-                            Posteriormente podremos conectarla directamente
-                            con correo o WhatsApp.
+                            Al enviar, la solicitud será enviada al equipo de PYMA.
+                            También puedes cotizar directamente por WhatsApp.
                         </p>
 
                     </form>
